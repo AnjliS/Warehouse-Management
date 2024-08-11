@@ -1,0 +1,21 @@
+<template>
+    <template if:true={isVisible}>
+        <aside class="filter-panel">
+            <section class="filter-options">
+                <lightning-checkbox-group
+                    label="Approval Status"
+                    options={filterOptions}
+                    onchange={handleFilterChange}>
+                </lightning-checkbox-group>
+                <section class="manual-filter">
+                    <label for="age-input">Enter Age:</label>
+                    <lightning-input
+                        type="number"
+                        id="age-input"
+                        onchange={handleAgeInputChange}>
+                    </lightning-input>
+                </section>
+            </section>
+        </aside>
+    </template>
+</template>

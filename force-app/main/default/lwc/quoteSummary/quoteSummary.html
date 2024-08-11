@@ -1,0 +1,12 @@
+<template>
+    <template if:true={isQuoteSelected}>
+        <lightning-card title="Quote Summary">
+            <lightning-datatable
+                key-field="id"
+                data={quotes}
+                columns={columns}
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </lightning-card>
+    </template>
+</template>

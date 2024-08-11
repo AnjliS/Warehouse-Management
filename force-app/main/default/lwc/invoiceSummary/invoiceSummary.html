@@ -1,0 +1,11 @@
+<template>
+    <template if:true={isInvoiceSelected}>
+    <lightning-card title="Invoice Tracking">
+        <lightning-datatable
+            key-field="id"
+            data={invoices}
+            columns={columns}>
+        </lightning-datatable>
+    </lightning-card>
+</template>
+</template>

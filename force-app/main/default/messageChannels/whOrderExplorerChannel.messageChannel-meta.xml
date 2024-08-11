@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <isExposed>true</isExposed>
+    <masterLabel>WhOrderSummaryChannel</masterLabel>
+    <description>This is the LMS that I have created for the Order Explorer App Page of the Wharehouse App.</description>
+
+    <lightningMessageFields>
+        <fieldName>radioSelection</fieldName>
+        <description>The value chosen in the header component.</description>
+    </lightningMessageFields>
+
+</LightningMessageChannel>

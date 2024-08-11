@@ -1,0 +1,85 @@
+<template>
+<lightning-card>
+    <lightning-button variant="brand" label="Save" onclick={handleSave}></lightning-button>
+                <lightning-button label="Cancel" onclick={handleCancel}></lightning-button>
+    <div class="slds-grid slds-wrap slds-gutters">
+        <!-- Account Section -->
+        <section class="slds-col slds-size_1-of-1">
+            <div class="slds-box slds-theme_default">
+                <h2 class="slds-text-heading_medium">Account Details</h2>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <lightning-input label="Account Name" value={accountName} onchange={handleInputChange} name="accountName"></lightning-input>
+                            <lightning-input label="Phone" value={accountPhone} onchange={handleInputChange} name="accountPhone"></lightning-input>
+                            <lightning-input label="Industry" value={accountIndustry} onchange={handleInputChange} name="accountIndustry"></lightning-input>
+                            <lightning-input label="Number of Employees" value={accountEmployees} onchange={handleInputChange} name="accountEmployees"></lightning-input>
+                            <lightning-input label="Billing Street" value={billingStreet} onchange={handleInputChange} name="billingStreet"></lightning-input>
+                            <lightning-input label="Billing City" value={billingCity} onchange={handleInputChange} name="billingCity"></lightning-input>
+                            <lightning-input label="Billing State" value={billingState} onchange={handleInputChange} name="billingState"></lightning-input>
+                            <lightning-input label="Billing Country" value={billingCountry} onchange={handleInputChange} name="billingCountry"></lightning-input>
+                            <lightning-input label="Billing Postal Code" value={billingPostalCode} onchange={handleInputChange} name="billingPostalCode"></lightning-input>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-input label="Parent Account" value={parentAccountId} onchange={handleInputChange} name="parentAccountId"></lightning-input>
+                            <lightning-input label="Website" value={accountWebsite} onchange={handleInputChange} name="accountWebsite"></lightning-input>
+                            <lightning-input label="Description" value={accountDescription} onchange={handleInputChange} name="accountDescription" variant="standard"></lightning-input>
+                            <lightning-input label="Annual Revenue" value={accountRevenue} onchange={handleInputChange} name="accountRevenue"></lightning-input>
+                            <lightning-input label="Shipping Street" value={shippingStreet} onchange={handleInputChange} name="shippingStreet"></lightning-input>
+                            <lightning-input label="Shipping City" value={shippingCity} onchange={handleInputChange} name="shippingCity"></lightning-input>
+                            <lightning-input label="Shipping State" value={shippingState} onchange={handleInputChange} name="shippingState"></lightning-input>
+                            <lightning-input label="Shipping Country" value={shippingCountry} onchange={handleInputChange} name="shippingCountry"></lightning-input>
+                            <lightning-input label="Shipping Postal Code" value={shippingPostalCode} onchange={handleInputChange} name="shippingPostalCode"></lightning-input>
+                        </lightning-layout-item>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="slds-col slds-size_1-of-1">
+            <div class="slds-box slds-theme_default">
+                <h2 class="slds-text-heading_medium">Contact Details</h2>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <lightning-input label="Salutation" value={contactSalutation} onchange={handleInputChange} name="contactSalutation"></lightning-input>
+                            <lightning-input label="First Name" value={contactFirstName} onchange={handleInputChange} name="contactFirstName"></lightning-input>
+                            <lightning-input label="Title" value={contactTitle} onchange={handleInputChange} name="contactTitle"></lightning-input>
+                            <lightning-input label="Mobile Phone" value={contactMobilePhone} onchange={handleInputChange} name="contactMobilePhone"></lightning-input>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-input label="Last Name" value={contactLastName} onchange={handleInputChange} name="contactLastName"></lightning-input>
+                            <lightning-input label="Phone" value={contactPhone} onchange={handleInputChange} name="contactPhone"></lightning-input>
+                            <lightning-input label="Email" value={contactEmail} onchange={handleInputChange} name="contactEmail"></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opportunity Section -->
+        <!--  Out_Of_State__c -->
+        <section class="slds-col slds-size_1-of-1">     
+            <div class="slds-box slds-theme_default">
+                <h2 class="slds-text-heading_medium">Opportunity Details</h2>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <lightning-input label="Lead Source" value={opportunityLeadSource} onchange={handleInputChange} name="opportunityLeadSource"></lightning-input>
+                        <lightning-combobox label="Stage" value={opportunityStage} onchange={handleInputChange} name="opportunityStage"></lightning-combobox>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-input label="Other Lead Source" type="picklist" value={opportunityOtherLeadSource} onchange={handleInputChange} name="opportunityOtherLeadSource"></lightning-input>
+                            <lightning-input label="Remarks" value={opportunityRemarks} onchange={handleInputChange} name="opportunityRemarks"></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <lightning-button variant="brand" label="Save" onclick={handleSave}></lightning-button>
+                <lightning-button label="Cancel" onclick={handleCancel}></lightning-button>
+            </lightning-card>
+        </template>
+
+
+
+
+
+

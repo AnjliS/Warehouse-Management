@@ -1,0 +1,12 @@
+<template>
+    <template if:true={isSalesOrderSelected}>
+    <lightning-card title="Order Summary">
+        <lightning-datatable
+            key-field="id"
+            data={orders}
+            columns={columns}
+            onrowaction={handleRowAction}>
+        </lightning-datatable>
+    </lightning-card>
+</template>
+</template>

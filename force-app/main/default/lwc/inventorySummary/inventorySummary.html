@@ -1,0 +1,12 @@
+<template>
+    <template if:true={isInventorySelected}>
+    <lightning-card title="Inventory Summary">
+        <lightning-datatable
+            key-field="id"
+            data={inventory}
+            columns={columns}
+            onrowaction={handleRowAction}>
+        </lightning-datatable>
+    </lightning-card>
+</template>
+</template>
