@@ -47,5 +47,5 @@ Thank you for exploring the Warehouse Management Project. For any feedback or di
 
 Connect with me on social media:
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/anjalisingh15)
+- LinkedIn: (https://www.linkedin.com/in/anjalisingh15)
 - Email: 213anjalisingh@gmail.com
