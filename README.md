@@ -27,6 +27,7 @@ https://github.com/user-attachments/assets/794d6935-083e-4cfa-b48a-92c093efa3f4
 - **PDF Templates:** Developed Visualforce PDF templates for efficient Quote and Invoice PDF generation, enhancing document handling and tracking.
 
 Watch the demo video to see how to **Generate Quote PDF and then Email it to the contact**:
+
 https://github.com/user-attachments/assets/1481338b-5d97-4213-8956-d7fb351cd7b7
 
 ### Inventory & Order Management 📊
