@@ -9,8 +9,7 @@ Welcome to the Warehouse Management Project, a comprehensive Salesforce solution
 
 Watch the demo video to see how to quickly navigate through the **Order Explorer** LWC page, summarizing objects in the warehouse management system App:
 
-https://github.com/user-attachments/assets/ea17016d-facd-43ab-abb6-5c375ed200aa
-
+https://github.com/user-attachments/assets/794d6935-083e-4cfa-b48a-92c093efa3f4
 
 ## Key Achievements
 
