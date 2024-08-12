@@ -4,6 +4,14 @@
 
 Welcome to the Warehouse Management Project, a comprehensive Salesforce solution designed to streamline the entire process from lead generation to sales order fulfillment. This project ensures efficient tracking and management of inventory, sales orders, invoicing, and order processing, with automated reminders to prevent supply chain disruptions.
 
+
+## Demo
+
+Watch the demo video to see how to quickly navigate through the **Order Explorer** LWC page, summarizing objects in the warehouse management system App:
+
+https://github.com/user-attachments/assets/ea17016d-facd-43ab-abb6-5c375ed200aa
+
+
 ## Key Achievements
 
 ### Lead to Sales Order Conversion 🔄
