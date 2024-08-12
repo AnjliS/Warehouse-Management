@@ -26,6 +26,9 @@ https://github.com/user-attachments/assets/794d6935-083e-4cfa-b48a-92c093efa3f4
 - **Visualforce Pages:** Designed custom Visualforce Pages to handle complex business logic, including the creation of Sales Orders upon customer approval of Quotes and generating Invoices from Sales Orders.
 - **PDF Templates:** Developed Visualforce PDF templates for efficient Quote and Invoice PDF generation, enhancing document handling and tracking.
 
+Watch the demo video to see how to **Generate Quote PDF and then Email it to the contact**:
+https://github.com/user-attachments/assets/1481338b-5d97-4213-8956-d7fb351cd7b7
+
 ### Inventory & Order Management 📊
 
 - **Inventory Adjustments:** Implemented inventory adjustments and maintenance of inventory histories to ensure accurate stock management and prevent supply chain disruptions.
